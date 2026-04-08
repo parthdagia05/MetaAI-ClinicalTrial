@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query, Request
 from pydantic import BaseModel
 from typing import Optional
 
@@ -9,9 +9,7 @@ from .grader import grade_task
 app = FastAPI(title="Clinical Trial Screener Environment", version="1.0.0")
 env = ClinicalTrialScreenerEnv()
 
-
-class ResetRequest(BaseModel):
-    task_id: str
+VALID_TASKS = ["easy_diabetes_screening", "medium_cardiac_interactions", "hard_rare_disease_multi"]
 
 
 class StepRequest(BaseModel):
@@ -42,11 +40,19 @@ def root():
 
 
 @app.post("/reset", response_model=Observation)
-def reset(req: ResetRequest):
-    valid_tasks = ["easy_diabetes_screening", "medium_cardiac_interactions", "hard_rare_disease_multi"]
-    if req.task_id not in valid_tasks:
-        raise HTTPException(status_code=400, detail=f"invalid task_id. must be one of: {valid_tasks}")
-    obs = env.reset(req.task_id)
+async def reset(request: Request, task_id: Optional[str] = Query(None)):
+    tid = task_id
+    if not tid:
+        try:
+            body = await request.json()
+            tid = body.get("task_id") if isinstance(body, dict) else None
+        except Exception:
+            pass
+    if not tid:
+        tid = VALID_TASKS[0]
+    if tid not in VALID_TASKS:
+        raise HTTPException(status_code=400, detail=f"invalid task_id. must be one of: {VALID_TASKS}")
+    obs = env.reset(tid)
     return obs
 
 
