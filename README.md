@@ -7,9 +7,9 @@ sdk: docker
 pinned: false
 ---
 
-# Clinical Trial Patient Screener — OpenEnv Environment
+# Clinical Trial Patient Screener - OpenEnv Environment
 
-An OpenEnv-compliant reinforcement learning environment that simulates the job of a clinical trial patient screener. An AI agent receives patient referrals and must investigate them step-by-step — reviewing medical records, checking lab results, identifying drug interactions, and making enrollment decisions (enroll, reject, waitlist, or refer to specialist).
+An OpenEnv-compliant reinforcement learning environment that simulates the job of a clinical trial patient screener. An AI agent receives patient referrals and must investigate them step-by-step - reviewing medical records, checking lab results, identifying drug interactions, and making enrollment decisions (enroll, reject, waitlist, or refer to specialist).
 
 ## Why This Matters
 
@@ -30,13 +30,13 @@ This environment fills that gap.
 | Action | Description | Parameters |
 |--------|-------------|------------|
 | `view_patient` | View patient demographics and summary | `target`: patient ID (for multi-patient tasks) |
-| `check_trial_protocol` | Review trial inclusion/exclusion criteria | — |
-| `check_medical_history` | Review patient's medical history | — |
-| `check_lab_results` | Review laboratory results | — |
-| `check_medications` | Review current and past medications | — |
-| `check_drug_interactions` | Check drug interactions with trial drug | — |
-| `check_genetic_markers` | Review pharmacogenomic/genetic data | — |
-| `check_prior_trials` | Check prior clinical trial participation | — |
+| `check_trial_protocol` | Review trial inclusion/exclusion criteria | - |
+| `check_medical_history` | Review patient's medical history | - |
+| `check_lab_results` | Review laboratory results | - |
+| `check_medications` | Review current and past medications | - |
+| `check_drug_interactions` | Check drug interactions with trial drug | - |
+| `check_genetic_markers` | Review pharmacogenomic/genetic data | - |
+| `check_prior_trials` | Check prior clinical trial participation | - |
 | `flag_concern` | Flag a screening concern | `flag_reason`: description |
 | `request_additional_tests` | Request additional diagnostic tests | `target`: test name |
 | `make_decision` | Make final screening decision | `decision`, `decision_reasoning`, `approved_amount` |
@@ -73,7 +73,7 @@ class Observation(BaseModel):
 | `check_document` | No useful info | -0.01 |
 | `flag_concern` | Correct concern | +0.10 |
 | `flag_concern` | False concern | -0.05 |
-| `request_additional_tests` | — | -0.02 |
+| `request_additional_tests` | - | -0.02 |
 | Repeated action | Same action twice | -0.05 |
 
 ### Final Decision Rewards
