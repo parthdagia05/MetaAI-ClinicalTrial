@@ -1,0 +1,18 @@
+{
+  "source": "Clinical Immunogenetics Lab",
+  "patient_id": "PT-2026-02002",
+  "test_date": "2022-02-10",
+  "results": [
+    {
+      "marker": "HLA-DPB1*04:01",
+      "result": "Positive",
+      "relevance": "Strongly associated with GPA/PR3-ANCA vasculitis. Consistent with diagnosis."
+    },
+    {
+      "marker": "TPMT (Thiopurine Methyltransferase)",
+      "result": "Normal activity (*1/*1)",
+      "relevance": "Normal azathioprine metabolism expected."
+    }
+  ],
+  "interpretation": "Genetic profile is consistent with PR3-ANCA GPA diagnosis."
+}

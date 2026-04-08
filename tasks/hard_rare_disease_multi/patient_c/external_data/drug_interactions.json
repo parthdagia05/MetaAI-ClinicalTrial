@@ -1,0 +1,21 @@
+{
+  "source": "DrugBank Clinical Interaction Database",
+  "query_drug": "Ritugenib (JAK1/JAK3 Inhibitor)",
+  "interactions": [
+    {
+      "drug": "Prednisone",
+      "severity": "mild",
+      "notes": "Low-dose (≤10mg/day) is permitted per protocol. Combined immunosuppression risk is acceptable."
+    },
+    {
+      "drug": "Trimethoprim-Sulfamethoxazole",
+      "severity": "mild",
+      "notes": "Both may cause bone marrow suppression. Monitor CBC regularly."
+    },
+    {
+      "drug": "Calcium/Vitamin D",
+      "severity": "none",
+      "notes": "No known interaction."
+    }
+  ]
+}

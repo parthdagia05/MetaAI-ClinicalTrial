@@ -1,0 +1,15 @@
+{
+  "source": "Insurance Verification System",
+  "patient_id": "PT-2026-00847",
+  "carrier": "BlueCross BlueShield PPO",
+  "policy_number": "BCB-OR-8847291",
+  "coverage_status": "active",
+  "trial_coverage": {
+    "study_drug": "Provided by sponsor at no cost",
+    "study_visits": "Covered by sponsor",
+    "standard_of_care": "Covered under existing PPO plan",
+    "copay_for_office_visits": "$30",
+    "lab_work": "Covered at 80% after deductible"
+  },
+  "notes": "No cost barriers to trial participation identified."
+}

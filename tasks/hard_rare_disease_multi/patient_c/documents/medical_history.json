@@ -1,0 +1,39 @@
+{
+  "document_type": "medical_history",
+  "patient_id": "PT-2026-02003",
+  "last_updated": "2026-03-05",
+  "conditions": [
+    {
+      "condition": "Granulomatosis with Polyangiitis (GPA)",
+      "diagnosed": "2025-07-15",
+      "diagnosing_facility": "UCSF Medical Center",
+      "status": "active",
+      "notes": "Presented with bloody nasal discharge, orbital pseudotumor, and pulmonary nodules. Nasal biopsy confirmed necrotizing granulomatous inflammation with vasculitis. PR3-ANCA positive. BVAS at diagnosis was 8."
+    },
+    {
+      "condition": "Rituximab hypersensitivity",
+      "diagnosed": "2025-08-20",
+      "status": "documented",
+      "notes": "During first rituximab infusion, patient developed severe infusion reaction (Grade 3): rigors, hypotension, bronchospasm requiring epinephrine. Infusion terminated. Rituximab permanently contraindicated. This qualifies as failure/intolerance to standard therapy."
+    }
+  ],
+  "surgeries": [
+    {
+      "procedure": "Nasal mucosal biopsy",
+      "date": "2025-07-10",
+      "facility": "UCSF Medical Center"
+    }
+  ],
+  "allergies": ["Rituximab (severe infusion reaction)", "Shellfish (mild hives)"],
+  "family_history": [
+    "Father: Healthy, age 56",
+    "Mother: Graves' disease (autoimmune thyroid), age 54",
+    "Sister: Healthy, age 25"
+  ],
+  "social_history": {
+    "smoking": "Never smoker",
+    "alcohol": "Social, 2-3 drinks per week",
+    "exercise": "Runs 3x/week when feeling well, currently reduced to walking",
+    "occupation": "PhD candidate in Environmental Engineering at UC Berkeley"
+  }
+}

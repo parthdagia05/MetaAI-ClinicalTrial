@@ -1,0 +1,41 @@
+{
+  "document_type": "current_medications",
+  "patient_id": "PT-2026-02001",
+  "last_verified": "2026-02-28",
+  "medications": [
+    {
+      "name": "Prednisone",
+      "dose": "7.5 mg",
+      "frequency": "Once daily",
+      "route": "Oral",
+      "prescriber": "Dr. Anita Reddy",
+      "start_date": "2024-04-01",
+      "notes": "Being tapered from 40mg. Currently on slow taper."
+    },
+    {
+      "name": "Fluticasone/Salmeterol (Advair)",
+      "dose": "250/50 mcg",
+      "frequency": "Twice daily",
+      "route": "Inhaled",
+      "prescriber": "Dr. Anita Reddy",
+      "start_date": "2023-08-15"
+    },
+    {
+      "name": "Trimethoprim-Sulfamethoxazole",
+      "dose": "160/800 mg",
+      "frequency": "Three times weekly",
+      "route": "Oral",
+      "prescriber": "Dr. Anita Reddy",
+      "start_date": "2024-04-15",
+      "notes": "PJP prophylaxis during immunosuppression"
+    }
+  ],
+  "recently_completed": [
+    {
+      "name": "Cyclophosphamide",
+      "course": "6 monthly IV infusions",
+      "last_dose": "2026-01-10",
+      "notes": "Completed full induction course. Washout period > 4 weeks."
+    }
+  ]
+}

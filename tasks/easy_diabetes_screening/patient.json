@@ -1,0 +1,14 @@
+{
+  "patient_id": "PT-2026-00847",
+  "name": "Robert Nakamura",
+  "age": 54,
+  "gender": "Male",
+  "date_of_birth": "1971-08-15",
+  "address": "742 Elm Street, Portland, OR 97205",
+  "phone": "(503) 555-0192",
+  "insurance": "BlueCross BlueShield PPO",
+  "primary_physician": "Dr. Sarah Chen",
+  "referral_source": "Portland Endocrinology Associates",
+  "referral_date": "2026-03-10",
+  "summary": "54-year-old male with Type 2 Diabetes referred for clinical trial screening. Currently managed with metformin and lifestyle modifications. Patient expresses interest in exploring new treatment options."
+}

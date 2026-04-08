@@ -1,0 +1,15 @@
+{
+  "source": "Insurance Verification System",
+  "patient_id": "PT-2026-01234",
+  "carrier": "Aetna Medicare Advantage",
+  "policy_number": "AET-MA-5591034",
+  "coverage_status": "active",
+  "trial_coverage": {
+    "study_drug": "Provided by sponsor at no cost",
+    "study_visits": "Covered by sponsor",
+    "standard_of_care": "Covered under Medicare Advantage plan",
+    "copay_for_specialist_visits": "$40",
+    "lab_work": "Covered at 100% for trial-related labs"
+  },
+  "notes": "No cost barriers identified. Medicare Advantage plan covers routine costs in clinical trials per CMS policy."
+}

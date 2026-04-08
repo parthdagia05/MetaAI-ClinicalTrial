@@ -1,0 +1,39 @@
+{
+  "trial_id": "NCT-2026-GBL-0042",
+  "trial_name": "GLUCOBALANCE Phase III",
+  "sponsor": "Meridian Therapeutics",
+  "drug_name": "Semaflozin",
+  "drug_class": "SGLT2 Inhibitor",
+  "condition": "Type 2 Diabetes Mellitus",
+  "phase": "Phase III",
+  "estimated_duration": "52 weeks",
+  "sites": 48,
+  "target_enrollment": 1200,
+  "inclusion_criteria": [
+    "Age 40-65 years",
+    "Confirmed diagnosis of Type 2 Diabetes Mellitus for at least 1 year",
+    "HbA1c between 7.0% and 10.0% at screening",
+    "eGFR greater than 60 mL/min/1.73m²",
+    "Stable dose of metformin for at least 3 months prior to screening",
+    "BMI between 25 and 45 kg/m²",
+    "Willing to perform self-monitoring of blood glucose"
+  ],
+  "exclusion_criteria": [
+    "Type 1 Diabetes Mellitus",
+    "eGFR less than or equal to 60 mL/min/1.73m²",
+    "History of diabetic ketoacidosis within past 12 months",
+    "Pregnant, nursing, or planning pregnancy during trial period",
+    "Active malignancy or cancer treatment within past 5 years",
+    "Uncontrolled hypertension (systolic > 160 mmHg or diastolic > 100 mmHg)",
+    "Current use of any SGLT2 inhibitor",
+    "Use of any investigational drug within 30 days of screening",
+    "History of recurrent urinary tract infections (3 or more in past year)",
+    "Known hypersensitivity to SGLT2 inhibitors"
+  ],
+  "primary_endpoint": "Change in HbA1c from baseline at Week 26",
+  "secondary_endpoints": [
+    "Change in fasting plasma glucose",
+    "Proportion achieving HbA1c < 7.0%",
+    "Change in body weight"
+  ]
+}

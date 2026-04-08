@@ -1,0 +1,24 @@
+{
+  "task_id": "easy_diabetes_screening",
+  "correct_decision": "reject",
+  "correct_reasoning": "Patient fails two key eligibility criteria: (1) eGFR of 55 is below the required threshold of >60 mL/min/1.73m², and (2) metformin dose was increased from 500mg to 1000mg only 6 weeks ago, violating the 3-month stable dose requirement.",
+  "concerns_to_find": [
+    "eGFR of 55 is below the trial's required threshold of >60",
+    "Metformin dose changed from 500mg to 1000mg on 2026-01-22, less than 3 months before screening"
+  ],
+  "legitimate_findings": [
+    "HbA1c of 8.2% is within the required 7.0-10.0% range",
+    "Age 54 is within the 40-65 range",
+    "BMI 31.4 is within the 25-45 range",
+    "No prior SGLT2 inhibitor use",
+    "No prior trial participation"
+  ],
+  "expected_steps": {"min": 5, "max": 7},
+  "grading": {
+    "found_all_concerns": 0.30,
+    "correct_decision": 0.30,
+    "correct_reasoning": 0.20,
+    "efficiency": 0.10,
+    "no_false_concerns": 0.10
+  }
+}

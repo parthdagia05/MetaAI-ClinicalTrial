@@ -1,0 +1,18 @@
+{
+  "document_type": "prior_trial_history",
+  "patient_id": "PT-2026-02002",
+  "trials": [
+    {
+      "trial_id": "NCT-2025-VCW-0034",
+      "trial_name": "VASCUWATCH",
+      "sponsor": "BioVascula Research Consortium",
+      "description": "Listed as an 'observational biomarker study' in registry",
+      "enrollment_date": "2025-09-01",
+      "status": "currently_enrolled",
+      "site": "Stanford Vasculitis Center",
+      "actual_protocol_details": "Despite registry listing as observational, the protocol involves biomarker-guided dose adjustments of azathioprine with a randomized control arm receiving standard dosing. Patients in the intervention arm have their azathioprine dose modified based on thiopurine metabolite levels. This constitutes an interventional trial by FDA definition.",
+      "patient_arm": "Intervention (biomarker-guided dosing)",
+      "notes": "Patient may not be aware this qualifies as an interventional trial. Consent form describes it as a 'monitoring study with possible dose optimization.'"
+    }
+  ]
+}

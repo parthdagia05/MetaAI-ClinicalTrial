@@ -1,0 +1,21 @@
+{
+  "source": "DrugBank Clinical Interaction Database",
+  "query_drug": "Ritugenib (JAK1/JAK3 Inhibitor)",
+  "interactions": [
+    {
+      "drug": "Prednisone",
+      "severity": "mild",
+      "notes": "Low-dose prednisone (≤10mg) is permitted per protocol. Combined immunosuppression risk is acceptable at this dose."
+    },
+    {
+      "drug": "Fluticasone/Salmeterol",
+      "severity": "none",
+      "notes": "Inhaled corticosteroids have minimal systemic absorption. No significant interaction."
+    },
+    {
+      "drug": "Trimethoprim-Sulfamethoxazole",
+      "severity": "mild",
+      "notes": "Both may cause bone marrow suppression. Monitor CBC regularly."
+    }
+  ]
+}

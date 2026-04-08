@@ -1,0 +1,26 @@
+{
+  "task_id": "medium_cardiac_interactions",
+  "correct_decision": "waitlist",
+  "correct_reasoning": "Patient meets core eligibility criteria (age, AF diagnosis, CHA2DS2-VASc score) but has three issues requiring resolution: (1) St. John's Wort is a strong CYP3A4 inducer explicitly excluded by the protocol — must be discontinued with adequate washout, (2) warfarin requires 14-day washout period before enrollment, (3) prior adverse event in a similar factor Xa inhibitor trial warrants discussion though it was route-specific. Ibuprofen use with anticoagulants is a manageable concern. Patient can be enrolled after St. John's Wort discontinuation, warfarin washout, and a follow-up liver function check.",
+  "concerns_to_find": [
+    "St. John's Wort is a strong CYP3A4 inducer — contraindicated with Vorixaban and listed in exclusion criteria",
+    "Warfarin requires 14-day washout before trial drug initiation",
+    "Prior adverse event in AFGUARD-1 trial with similar drug class (factor Xa inhibitor)"
+  ],
+  "legitimate_findings": [
+    "Meets age criteria (62, within 50-75)",
+    "CHA2DS2-VASc score of 4 qualifies (requires >= 2)",
+    "Lab values are acceptable — liver function within normal limits",
+    "Previous trial was over 60 days ago (371 days)",
+    "Prior adverse event was injection-site specific, not related to oral formulation"
+  ],
+  "expected_steps": {"min": 8, "max": 11},
+  "grading": {
+    "identified_concerns": 0.25,
+    "identified_legitimate": 0.15,
+    "correct_decision": 0.25,
+    "correct_reasoning": 0.15,
+    "efficiency": 0.10,
+    "no_false_concerns": 0.10
+  }
+}

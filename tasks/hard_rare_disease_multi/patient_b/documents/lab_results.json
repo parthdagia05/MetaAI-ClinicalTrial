@@ -1,0 +1,85 @@
+{
+  "document_type": "lab_results",
+  "patient_id": "PT-2026-02002",
+  "collection_date": "2026-02-28",
+  "lab_facility": "UCSF Clinical Laboratory",
+  "results": [
+    {
+      "test": "ANCA Panel — PR3-ANCA",
+      "value": 35.6,
+      "unit": "U/mL",
+      "reference_range": "<5.0 negative, >=5.0 positive",
+      "flag": "positive"
+    },
+    {
+      "test": "ANCA Panel — MPO-ANCA",
+      "value": 2.1,
+      "unit": "U/mL",
+      "reference_range": "<5.0 negative",
+      "flag": "negative"
+    },
+    {
+      "test": "BVAS",
+      "value": 4,
+      "unit": "",
+      "reference_range": "0 = remission, >=3 active disease",
+      "flag": "active"
+    },
+    {
+      "test": "eGFR",
+      "value": 65,
+      "unit": "mL/min/1.73m²",
+      "reference_range": ">60 normal",
+      "flag": "normal"
+    },
+    {
+      "test": "Serum Creatinine",
+      "value": 1.0,
+      "unit": "mg/dL",
+      "reference_range": "0.6-1.1",
+      "flag": "normal"
+    },
+    {
+      "test": "ANC",
+      "value": 2800,
+      "unit": "/μL",
+      "reference_range": ">1500",
+      "flag": "normal"
+    },
+    {
+      "test": "Platelet Count",
+      "value": 195000,
+      "unit": "/μL",
+      "reference_range": "150,000-400,000",
+      "flag": "normal"
+    },
+    {
+      "test": "Hemoglobin",
+      "value": 11.9,
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0 (female)",
+      "flag": "borderline low"
+    },
+    {
+      "test": "ALT",
+      "value": 30,
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "flag": "normal"
+    },
+    {
+      "test": "AST",
+      "value": 28,
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "flag": "normal"
+    },
+    {
+      "test": "CRP",
+      "value": 12.3,
+      "unit": "mg/L",
+      "reference_range": "<10",
+      "flag": "mildly elevated"
+    }
+  ]
+}

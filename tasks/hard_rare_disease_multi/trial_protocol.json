@@ -1,0 +1,42 @@
+{
+  "trial_id": "NCT-2026-VRG-0007",
+  "trial_name": "VASCREGEN Phase I/II",
+  "sponsor": "Orion Immunotherapeutics",
+  "drug_name": "Ritugenib",
+  "drug_class": "Selective JAK1/JAK3 Inhibitor",
+  "condition": "ANCA-associated Vasculitis — Granulomatosis with Polyangiitis (GPA)",
+  "phase": "Phase I/II",
+  "estimated_duration": "48 weeks",
+  "sites": 8,
+  "target_enrollment": 60,
+  "inclusion_criteria": [
+    "Age 18-65 years",
+    "Confirmed diagnosis of Granulomatosis with Polyangiitis (GPA)",
+    "PR3-ANCA (proteinase 3) positive",
+    "Active disease with Birmingham Vasculitis Activity Score (BVAS) of 3 or greater",
+    "Failed or intolerant to at least one standard immunosuppressive therapy (cyclophosphamide, rituximab, or methotrexate)",
+    "eGFR greater than 30 mL/min/1.73m²",
+    "Adequate bone marrow function (ANC > 1500/μL, platelets > 100,000/μL, hemoglobin > 9 g/dL)"
+  ],
+  "exclusion_criteria": [
+    "MPO-ANCA (myeloperoxidase) positive without PR3-ANCA positivity",
+    "Diagnosis of Microscopic Polyangiitis (MPA) or Eosinophilic Granulomatosis with Polyangiitis (EGPA)",
+    "Active serious infection requiring IV antibiotics within 4 weeks",
+    "Current immunosuppressive therapy (must complete 4-week washout; corticosteroids ≤10mg/day prednisone equivalent permitted)",
+    "Concurrent enrollment in another interventional clinical trial",
+    "Pregnancy, breastfeeding, or plans to become pregnant during study",
+    "History of malignancy within 3 years (except treated basal cell carcinoma)",
+    "Liver enzymes (ALT or AST) greater than 3 times upper limit of normal",
+    "Active hepatitis B, hepatitis C, or HIV infection",
+    "History of gastrointestinal perforation or diverticulitis"
+  ],
+  "primary_endpoint": "Proportion achieving clinical remission (BVAS 0) at Week 24",
+  "secondary_endpoints": [
+    "Time to first remission",
+    "Sustained remission at Week 48",
+    "Change in PR3-ANCA titers",
+    "Glucocorticoid-free remission rate",
+    "Safety and tolerability"
+  ],
+  "important_notes": "This trial is specifically for GPA (PR3-ANCA positive). Patients with MPO-ANCA-associated vasculitis have a different disease mechanism and are not eligible. Confirm ANCA subtype with most recent laboratory results."
+}

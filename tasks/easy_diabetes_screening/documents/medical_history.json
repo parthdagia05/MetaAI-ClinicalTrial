@@ -1,0 +1,51 @@
+{
+  "document_type": "medical_history",
+  "patient_id": "PT-2026-00847",
+  "last_updated": "2026-03-08",
+  "conditions": [
+    {
+      "condition": "Type 2 Diabetes Mellitus",
+      "diagnosed": "2023-01-20",
+      "status": "active",
+      "notes": "Initially managed with diet and exercise, metformin started March 2024"
+    },
+    {
+      "condition": "Hypertension",
+      "diagnosed": "2019-06-15",
+      "status": "controlled",
+      "notes": "Well controlled on lisinopril, last reading 138/85"
+    },
+    {
+      "condition": "Chronic Kidney Disease Stage 3a",
+      "diagnosed": "2025-09-12",
+      "status": "stable",
+      "notes": "Mild renal impairment, monitored quarterly"
+    },
+    {
+      "condition": "Hyperlipidemia",
+      "diagnosed": "2020-03-10",
+      "status": "managed",
+      "notes": "On atorvastatin, lipid panel improving"
+    }
+  ],
+  "surgeries": [
+    {
+      "procedure": "Appendectomy",
+      "date": "2005-11-03",
+      "facility": "Oregon Health Sciences Center"
+    }
+  ],
+  "allergies": ["Sulfonamide antibiotics"],
+  "family_history": [
+    "Father: Type 2 Diabetes (diagnosed age 58), deceased age 72 (MI)",
+    "Mother: Breast cancer (survived, diagnosed age 65), alive age 82",
+    "Brother: Hypertension"
+  ],
+  "social_history": {
+    "smoking": "Never smoker",
+    "alcohol": "Occasional, 2-3 drinks per week",
+    "exercise": "Sedentary, walks 10 minutes daily",
+    "occupation": "Accountant",
+    "diet": "Trying low-carb, inconsistent adherence"
+  }
+}

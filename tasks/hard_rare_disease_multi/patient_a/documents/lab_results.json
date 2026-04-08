@@ -1,0 +1,114 @@
+{
+  "document_type": "lab_results",
+  "patient_id": "PT-2026-02001",
+  "collection_date": "2026-02-25",
+  "lab_facility": "City General Hospital Laboratory",
+  "results": [
+    {
+      "test": "ANCA Panel — PR3-ANCA (anti-proteinase 3)",
+      "value": 3.2,
+      "unit": "U/mL",
+      "reference_range": "<5.0 negative, >=5.0 positive",
+      "flag": "negative"
+    },
+    {
+      "test": "ANCA Panel — MPO-ANCA (anti-myeloperoxidase)",
+      "value": 42.8,
+      "unit": "U/mL",
+      "reference_range": "<5.0 negative, >=5.0 positive",
+      "flag": "strongly positive"
+    },
+    {
+      "test": "BVAS (Birmingham Vasculitis Activity Score)",
+      "value": 5,
+      "unit": "",
+      "reference_range": "0 = remission, >=3 active disease",
+      "flag": "active"
+    },
+    {
+      "test": "eGFR",
+      "value": 68,
+      "unit": "mL/min/1.73m²",
+      "reference_range": ">60 normal",
+      "flag": "normal"
+    },
+    {
+      "test": "Serum Creatinine",
+      "value": 1.1,
+      "unit": "mg/dL",
+      "reference_range": "0.7-1.2",
+      "flag": "normal"
+    },
+    {
+      "test": "ANC (Absolute Neutrophil Count)",
+      "value": 3200,
+      "unit": "/μL",
+      "reference_range": ">1500",
+      "flag": "normal"
+    },
+    {
+      "test": "Platelet Count",
+      "value": 210000,
+      "unit": "/μL",
+      "reference_range": "150,000-400,000",
+      "flag": "normal"
+    },
+    {
+      "test": "Hemoglobin",
+      "value": 12.8,
+      "unit": "g/dL",
+      "reference_range": "13.5-17.5 (male)",
+      "flag": "mildly low"
+    },
+    {
+      "test": "ALT",
+      "value": 22,
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "flag": "normal"
+    },
+    {
+      "test": "AST",
+      "value": 19,
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "flag": "normal"
+    },
+    {
+      "test": "Eosinophil Count",
+      "value": 680,
+      "unit": "/μL",
+      "reference_range": "100-500",
+      "flag": "mildly elevated"
+    },
+    {
+      "test": "CRP (C-Reactive Protein)",
+      "value": 18.5,
+      "unit": "mg/L",
+      "reference_range": "<10",
+      "flag": "elevated"
+    },
+    {
+      "test": "ESR",
+      "value": 42,
+      "unit": "mm/hr",
+      "reference_range": "0-20",
+      "flag": "elevated"
+    }
+  ],
+  "historical_anca_results": [
+    {
+      "date": "2024-03-15",
+      "facility": "City General Hospital",
+      "pr3_anca": "18.5 U/mL (positive)",
+      "mpo_anca": "not tested"
+    },
+    {
+      "date": "2023-09-20",
+      "facility": "Mercy Hospital Sacramento",
+      "pr3_anca": "not tested",
+      "mpo_anca": "38.2 U/mL (positive)"
+    }
+  ],
+  "notes": "Current results show MPO-ANCA positive with PR3-ANCA negative. This differs from the City General diagnosis in 2024 which reported PR3-ANCA positive. Note: the 2024 result tested only PR3-ANCA without concurrent MPO testing."
+}

@@ -1,0 +1,47 @@
+{
+  "task_id": "hard_rare_disease_multi",
+  "patients": {
+    "patient_a": {
+      "patient_id": "PT-2026-02001",
+      "name": "David Chen",
+      "correct_decision": "reject",
+      "correct_reasoning": "Patient is MPO-ANCA positive (42.8 U/mL) with PR3-ANCA negative (3.2 U/mL). The trial requires PR3-ANCA positivity. Additionally, records from Mercy Hospital suggest EGPA (a different vasculitis subtype), and genetic markers (HLA-DPB1*04:01 negative, HLA-DQ*06:02 positive) are more consistent with MPO-ANCA disease. The 2024 City General diagnosis of PR3-ANCA positive appears to have been based on incomplete testing (MPO was not concurrently tested)."
+    },
+    "patient_b": {
+      "patient_id": "PT-2026-02002",
+      "name": "Lisa Okafor",
+      "correct_decision": "reject",
+      "correct_reasoning": "Patient is currently enrolled in VASCUWATCH trial, which despite being listed as observational, is actually an interventional trial involving biomarker-guided dose adjustments with a randomized control arm. This violates the exclusion criterion of concurrent enrollment in another interventional trial. Additionally, the patient has documented adherence concerns (missed 3 of 8 scheduled appointments), which is a practical concern for a Phase I/II trial requiring close monitoring."
+    },
+    "patient_c": {
+      "patient_id": "PT-2026-02003",
+      "name": "James Whitfield",
+      "correct_decision": "enroll",
+      "correct_reasoning": "Patient meets all inclusion criteria: age 28 (18-65), confirmed GPA diagnosis with PR3-ANCA positive, BVAS of 3 (meets minimum threshold), failed rituximab due to hypersensitivity (qualifies as treatment failure), eGFR 82 (>30), and adequate bone marrow function. Although PR3-ANCA titers are in the lower range (15.2), they are clearly positive (>5.0), trending upward (from 8.3 to 15.2), and strongly supported by genetic markers (HLA-DPB1*04:01 homozygous, SERPINA1 MZ variant). No exclusion criteria are met. Prednisone 10mg is within protocol allowance. No concurrent immunosuppressants requiring washout.",
+      "approved_amount": 18000
+    }
+  },
+  "concerns_to_find": [
+    "Patient A: MPO-ANCA positive, not PR3-ANCA positive — wrong vasculitis subtype for trial",
+    "Patient A: Conflicting records between Mercy Hospital (EGPA/MPO-ANCA) and City General (GPA/PR3-ANCA)",
+    "Patient A: Genetic markers inconsistent with GPA (HLA-DPB1*04:01 negative)",
+    "Patient B: Currently enrolled in VASCUWATCH — actually an interventional trial despite observational labeling",
+    "Patient B: Documented adherence/compliance concerns (3 of 8 appointments missed)",
+    "Patient C: PR3-ANCA titers are in lower positive range (borderline appearance, but confirmed by trend and genetics)"
+  ],
+  "legitimate_findings": [
+    "Patient C meets all inclusion criteria",
+    "Patient C's borderline titers are supported by upward trend and genetic confirmation",
+    "Patient C's rituximab failure qualifies as required treatment intolerance",
+    "Patient B has correct ANCA subtype and meets lab criteria (but excluded by concurrent trial)"
+  ],
+  "expected_steps": {"min": 14, "max": 20},
+  "grading": {
+    "connected_patient_a_rejection_reasons": 0.20,
+    "correctly_identified_patient_c_as_eligible": 0.20,
+    "correct_decisions_all_three": 0.25,
+    "found_4_plus_concerns": 0.15,
+    "correct_reasoning_with_evidence": 0.10,
+    "efficiency": 0.10
+  }
+}

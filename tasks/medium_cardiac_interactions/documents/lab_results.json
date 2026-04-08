@@ -1,0 +1,85 @@
+{
+  "document_type": "lab_results",
+  "patient_id": "PT-2026-01234",
+  "collection_date": "2026-02-20",
+  "lab_facility": "Massachusetts General Hospital Laboratory",
+  "results": [
+    {
+      "test": "INR",
+      "value": 2.3,
+      "unit": "",
+      "reference_range": "2.0-3.0 (therapeutic on warfarin)",
+      "flag": "therapeutic"
+    },
+    {
+      "test": "Prothrombin Time (PT)",
+      "value": 28.1,
+      "unit": "seconds",
+      "reference_range": "11-13.5",
+      "flag": "elevated (expected on warfarin)"
+    },
+    {
+      "test": "Platelet Count",
+      "value": 185000,
+      "unit": "/μL",
+      "reference_range": "150,000-400,000",
+      "flag": "normal"
+    },
+    {
+      "test": "ALT",
+      "value": 52,
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "flag": "normal (upper range)"
+    },
+    {
+      "test": "AST",
+      "value": 45,
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "flag": "mildly elevated"
+    },
+    {
+      "test": "Serum Creatinine",
+      "value": 0.9,
+      "unit": "mg/dL",
+      "reference_range": "0.6-1.1",
+      "flag": "normal"
+    },
+    {
+      "test": "eGFR",
+      "value": 72,
+      "unit": "mL/min/1.73m²",
+      "reference_range": ">60 normal",
+      "flag": "normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 6.8,
+      "unit": "%",
+      "reference_range": "<7.0 (target for diabetics)",
+      "flag": "at target"
+    },
+    {
+      "test": "Total Bilirubin",
+      "value": 0.8,
+      "unit": "mg/dL",
+      "reference_range": "0.1-1.2",
+      "flag": "normal"
+    },
+    {
+      "test": "Albumin",
+      "value": 4.1,
+      "unit": "g/dL",
+      "reference_range": "3.5-5.5",
+      "flag": "normal"
+    },
+    {
+      "test": "Blood Pressure (screening visit)",
+      "value": "148/82",
+      "unit": "mmHg",
+      "reference_range": "<140/90",
+      "flag": "mildly elevated"
+    }
+  ]
+}

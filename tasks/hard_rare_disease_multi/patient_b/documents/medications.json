@@ -1,0 +1,34 @@
+{
+  "document_type": "current_medications",
+  "patient_id": "PT-2026-02002",
+  "last_verified": "2026-03-01",
+  "medications": [
+    {
+      "name": "Azathioprine",
+      "dose": "150 mg",
+      "frequency": "Once daily",
+      "route": "Oral",
+      "prescriber": "Dr. Michael Brennan",
+      "start_date": "2022-08-01",
+      "notes": "Maintenance immunosuppression after rituximab induction. Would need 4-week washout before trial enrollment."
+    },
+    {
+      "name": "Prednisone",
+      "dose": "5 mg",
+      "frequency": "Once daily",
+      "route": "Oral",
+      "prescriber": "Dr. Michael Brennan",
+      "start_date": "2022-02-15",
+      "notes": "Low-dose maintenance. Within protocol allowance (≤10mg)."
+    },
+    {
+      "name": "Trimethoprim-Sulfamethoxazole",
+      "dose": "80/400 mg",
+      "frequency": "Once daily",
+      "route": "Oral",
+      "prescriber": "Dr. Michael Brennan",
+      "start_date": "2022-02-20",
+      "notes": "PJP prophylaxis and possible anti-relapse benefit in GPA"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "source": "Clinical Pharmacogenomics Lab",
+  "patient_id": "PT-2026-01234",
+  "test_date": "2024-01-25",
+  "results": [
+    {
+      "gene": "CYP2C9",
+      "genotype": "*1/*1",
+      "phenotype": "Normal metabolizer",
+      "relevance": "Standard warfarin metabolism expected"
+    },
+    {
+      "gene": "VKORC1",
+      "genotype": "-1639 G/A",
+      "phenotype": "Intermediate sensitivity",
+      "relevance": "Standard warfarin dosing appropriate"
+    },
+    {
+      "gene": "CYP3A4",
+      "genotype": "*1/*1",
+      "phenotype": "Normal metabolizer",
+      "relevance": "Standard Vorixaban metabolism expected — however, CYP3A4 inducers would still significantly impact drug levels"
+    }
+  ]
+}

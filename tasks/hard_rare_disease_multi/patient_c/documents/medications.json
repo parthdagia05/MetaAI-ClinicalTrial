@@ -1,0 +1,46 @@
+{
+  "document_type": "current_medications",
+  "patient_id": "PT-2026-02003",
+  "last_verified": "2026-03-05",
+  "medications": [
+    {
+      "name": "Prednisone",
+      "dose": "10 mg",
+      "frequency": "Once daily",
+      "route": "Oral",
+      "prescriber": "Dr. Priya Sharma",
+      "start_date": "2025-08-25",
+      "notes": "Tapering schedule: currently at 10mg, plan to reach 5mg by mid-April. Within protocol allowance (≤10mg)."
+    },
+    {
+      "name": "Trimethoprim-Sulfamethoxazole",
+      "dose": "160/800 mg",
+      "frequency": "Three times weekly",
+      "route": "Oral",
+      "prescriber": "Dr. Priya Sharma",
+      "start_date": "2025-08-25",
+      "notes": "PJP prophylaxis"
+    },
+    {
+      "name": "Calcium + Vitamin D",
+      "dose": "600mg/400IU",
+      "frequency": "Once daily",
+      "route": "Oral",
+      "notes": "Bone protection while on corticosteroids"
+    }
+  ],
+  "recently_discontinued": [
+    {
+      "name": "Rituximab",
+      "reason": "Severe infusion reaction (Grade 3 hypersensitivity)",
+      "last_attempted": "2025-08-20",
+      "notes": "Only partial first dose administered before reaction. Considered treatment failure/intolerance."
+    },
+    {
+      "name": "Methylprednisolone IV pulse",
+      "reason": "Completed course",
+      "last_dose": "2025-08-01",
+      "notes": "3-day pulse at diagnosis, followed by oral prednisone taper"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source": "DrugBank Clinical Interaction Database",
+  "query_drug": "Vorixaban (Direct Factor Xa Inhibitor)",
+  "metabolism": "Primarily metabolized by CYP3A4 (major) and CYP2J2 (minor). Also a substrate of P-glycoprotein.",
+  "interactions": [
+    {
+      "drug": "Warfarin",
+      "severity": "high",
+      "notes": "Must not be co-administered. Requires 14-day washout with INR < 1.5 before starting Vorixaban."
+    },
+    {
+      "drug": "Metoprolol",
+      "severity": "none",
+      "notes": "No clinically significant interaction."
+    },
+    {
+      "drug": "Lisinopril",
+      "severity": "none",
+      "notes": "No known interaction."
+    },
+    {
+      "drug": "Metformin",
+      "severity": "none",
+      "notes": "No known interaction."
+    },
+    {
+      "drug": "Ibuprofen",
+      "severity": "moderate",
+      "notes": "NSAIDs increase bleeding risk when combined with anticoagulants. Concurrent use should be minimized or avoided. Consider acetaminophen as alternative."
+    },
+    {
+      "drug": "St. John's Wort (Hypericum perforatum)",
+      "severity": "critical",
+      "notes": "CONTRAINDICATED. St. John's Wort is a potent CYP3A4 inducer. Co-administration reduces Vorixaban plasma concentration by approximately 50%, potentially leading to therapeutic failure and increased stroke risk. Listed as exclusion criterion in protocol."
+    },
+    {
+      "drug": "Fish Oil (Omega-3)",
+      "severity": "mild",
+      "notes": "May have mild antiplatelet effects. Monitor for bleeding but not a contraindication."
+    },
+    {
+      "drug": "Vitamin D",
+      "severity": "none",
+      "notes": "No known interaction."
+    }
+  ]
+}

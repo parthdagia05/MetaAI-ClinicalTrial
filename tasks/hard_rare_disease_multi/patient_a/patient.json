@@ -1,0 +1,14 @@
+{
+  "patient_id": "PT-2026-02001",
+  "name": "David Chen",
+  "age": 34,
+  "gender": "Male",
+  "date_of_birth": "1991-05-08",
+  "address": "455 Pine Street, Apt 3B, San Francisco, CA 94108",
+  "phone": "(415) 555-0721",
+  "insurance": "Kaiser Permanente HMO",
+  "primary_physician": "Dr. Anita Reddy",
+  "referral_source": "City General Hospital Rheumatology",
+  "referral_date": "2026-03-02",
+  "summary": "34-year-old male with ANCA-associated vasculitis diagnosed 2 years ago. Referred for novel JAK inhibitor trial after completing cyclophosphamide treatment. Patient reports ongoing sinus and pulmonary symptoms consistent with active disease."
+}

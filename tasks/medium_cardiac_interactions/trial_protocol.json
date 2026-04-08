@@ -1,0 +1,41 @@
+{
+  "trial_id": "NCT-2026-HGD-0118",
+  "trial_name": "HEARTGUARD Phase II",
+  "sponsor": "Aelion Pharmaceuticals",
+  "drug_name": "Vorixaban",
+  "drug_class": "Direct Factor Xa Inhibitor",
+  "condition": "Non-valvular Atrial Fibrillation with Stroke Risk",
+  "phase": "Phase II",
+  "estimated_duration": "24 weeks",
+  "sites": 22,
+  "target_enrollment": 480,
+  "inclusion_criteria": [
+    "Age 50-75 years",
+    "Confirmed diagnosis of non-valvular atrial fibrillation for at least 6 months",
+    "CHA₂DS₂-VASc score of 2 or greater",
+    "Currently receiving oral anticoagulant therapy",
+    "Willing to undergo 14-day washout from current anticoagulant",
+    "Platelet count above 100,000/μL",
+    "Adequate hepatic function (ALT and AST less than 3x upper limit of normal)"
+  ],
+  "exclusion_criteria": [
+    "Active bleeding or known bleeding disorder",
+    "History of hemorrhagic stroke",
+    "Severe hepatic impairment (Child-Pugh Class C)",
+    "Platelet count below 100,000/μL",
+    "Concurrent use of strong CYP3A4 inducers including but not limited to rifampin, St. John's Wort, carbamazepine, phenytoin",
+    "Concurrent use of strong CYP3A4 inhibitors including but not limited to ketoconazole, itraconazole, ritonavir",
+    "Participation in another interventional clinical trial within 60 days of screening",
+    "Known hypersensitivity to direct factor Xa inhibitors",
+    "Uncontrolled hypertension (systolic > 180 mmHg or diastolic > 110 mmHg)",
+    "Estimated CrCl less than 30 mL/min",
+    "Planned invasive procedure during study period"
+  ],
+  "primary_endpoint": "Incidence of major and clinically relevant non-major bleeding events at Week 12",
+  "secondary_endpoints": [
+    "Stroke or systemic embolism",
+    "Time in therapeutic range equivalent",
+    "Patient-reported outcome measures"
+  ],
+  "pharmacology_notes": "Vorixaban is primarily metabolized via CYP3A4. Strong inducers significantly reduce plasma concentration, potentially leading to therapeutic failure."
+}

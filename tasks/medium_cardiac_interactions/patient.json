@@ -1,0 +1,14 @@
+{
+  "patient_id": "PT-2026-01234",
+  "name": "Margaret Sullivan",
+  "age": 62,
+  "gender": "Female",
+  "date_of_birth": "1963-11-22",
+  "address": "1890 Beacon Hill Drive, Boston, MA 02108",
+  "phone": "(617) 555-0347",
+  "insurance": "Aetna Medicare Advantage",
+  "primary_physician": "Dr. James Park",
+  "referral_source": "Massachusetts General Cardiology Department",
+  "referral_date": "2026-02-28",
+  "summary": "62-year-old female with atrial fibrillation and history of TIA, currently anticoagulated with warfarin. Referred for novel anticoagulant trial. Patient is motivated to participate due to difficulty maintaining stable INR levels."
+}

@@ -1,0 +1,22 @@
+{
+  "document_type": "prior_trial_history",
+  "patient_id": "PT-2026-01234",
+  "trials": [
+    {
+      "trial_id": "NCT-2024-AFG-0091",
+      "trial_name": "AFGUARD-1",
+      "sponsor": "Helix BioSciences",
+      "drug": "Eltroxaban (subcutaneous factor Xa inhibitor)",
+      "condition": "Atrial Fibrillation",
+      "phase": "Phase II",
+      "enrollment_date": "2024-10-15",
+      "withdrawal_date": "2025-02-20",
+      "duration_days": 128,
+      "outcome": "Withdrew due to adverse event",
+      "adverse_event": "Mild injection site rash (Grade 1), resolved within 2 weeks of discontinuation",
+      "investigator_notes": "Patient tolerated oral medications well. Adverse event was specific to subcutaneous formulation. No systemic reaction observed."
+    }
+  ],
+  "days_since_last_trial": 371,
+  "notes": "Previous trial was over 12 months ago. Adverse event was route-specific (injection site) and not related to drug mechanism."
+}

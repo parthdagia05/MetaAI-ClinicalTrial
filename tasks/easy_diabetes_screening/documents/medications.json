@@ -1,0 +1,54 @@
+{
+  "document_type": "current_medications",
+  "patient_id": "PT-2026-00847",
+  "last_verified": "2026-03-08",
+  "medications": [
+    {
+      "name": "Metformin",
+      "dose": "1000 mg",
+      "frequency": "Twice daily (BID)",
+      "route": "Oral",
+      "prescriber": "Dr. Sarah Chen",
+      "start_date": "2024-03-15",
+      "notes": "Dose increased from 500mg to 1000mg on 2026-01-22 due to inadequate glycemic control"
+    },
+    {
+      "name": "Lisinopril",
+      "dose": "20 mg",
+      "frequency": "Once daily",
+      "route": "Oral",
+      "prescriber": "Dr. Sarah Chen",
+      "start_date": "2019-07-01"
+    },
+    {
+      "name": "Atorvastatin",
+      "dose": "20 mg",
+      "frequency": "Once daily at bedtime",
+      "route": "Oral",
+      "prescriber": "Dr. Sarah Chen",
+      "start_date": "2020-04-10"
+    },
+    {
+      "name": "Aspirin",
+      "dose": "81 mg",
+      "frequency": "Once daily",
+      "route": "Oral",
+      "prescriber": "Dr. Sarah Chen",
+      "start_date": "2023-02-15"
+    }
+  ],
+  "supplements": [
+    {
+      "name": "Vitamin D3",
+      "dose": "2000 IU",
+      "frequency": "Once daily"
+    }
+  ],
+  "discontinued_medications": [
+    {
+      "name": "Glipizide",
+      "reason": "Hypoglycemic episodes",
+      "discontinued_date": "2025-08-20"
+    }
+  ]
+}

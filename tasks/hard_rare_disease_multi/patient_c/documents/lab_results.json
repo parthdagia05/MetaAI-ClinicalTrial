@@ -1,0 +1,98 @@
+{
+  "document_type": "lab_results",
+  "patient_id": "PT-2026-02003",
+  "collection_date": "2026-03-01",
+  "lab_facility": "UCSF Clinical Laboratory",
+  "results": [
+    {
+      "test": "ANCA Panel — PR3-ANCA",
+      "value": 15.2,
+      "unit": "U/mL",
+      "reference_range": "<5.0 negative, >=5.0 positive",
+      "flag": "positive (lower range)"
+    },
+    {
+      "test": "ANCA Panel — MPO-ANCA",
+      "value": 1.8,
+      "unit": "U/mL",
+      "reference_range": "<5.0 negative",
+      "flag": "negative"
+    },
+    {
+      "test": "BVAS",
+      "value": 3,
+      "unit": "",
+      "reference_range": "0 = remission, >=3 active disease",
+      "flag": "active (threshold)"
+    },
+    {
+      "test": "eGFR",
+      "value": 82,
+      "unit": "mL/min/1.73m²",
+      "reference_range": ">60 normal",
+      "flag": "normal"
+    },
+    {
+      "test": "Serum Creatinine",
+      "value": 0.95,
+      "unit": "mg/dL",
+      "reference_range": "0.7-1.2",
+      "flag": "normal"
+    },
+    {
+      "test": "ANC",
+      "value": 3600,
+      "unit": "/μL",
+      "reference_range": ">1500",
+      "flag": "normal"
+    },
+    {
+      "test": "Platelet Count",
+      "value": 225000,
+      "unit": "/μL",
+      "reference_range": "150,000-400,000",
+      "flag": "normal"
+    },
+    {
+      "test": "Hemoglobin",
+      "value": 14.1,
+      "unit": "g/dL",
+      "reference_range": "13.5-17.5 (male)",
+      "flag": "normal"
+    },
+    {
+      "test": "ALT",
+      "value": 18,
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "flag": "normal"
+    },
+    {
+      "test": "AST",
+      "value": 15,
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "flag": "normal"
+    },
+    {
+      "test": "CRP",
+      "value": 14.2,
+      "unit": "mg/L",
+      "reference_range": "<10",
+      "flag": "elevated"
+    },
+    {
+      "test": "ESR",
+      "value": 35,
+      "unit": "mm/hr",
+      "reference_range": "0-20",
+      "flag": "elevated"
+    }
+  ],
+  "historical_pr3_anca_trend": [
+    {"date": "2025-07-15", "value": 45.0, "note": "at diagnosis"},
+    {"date": "2025-10-01", "value": 8.3, "note": "post-steroid pulse"},
+    {"date": "2025-12-15", "value": 12.1, "note": "during taper"},
+    {"date": "2026-03-01", "value": 15.2, "note": "current, trending up"}
+  ]
+}

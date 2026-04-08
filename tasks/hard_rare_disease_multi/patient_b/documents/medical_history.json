@@ -1,0 +1,40 @@
+{
+  "document_type": "medical_history",
+  "patient_id": "PT-2026-02002",
+  "last_updated": "2026-03-01",
+  "conditions": [
+    {
+      "condition": "Granulomatosis with Polyangiitis (GPA)",
+      "diagnosed": "2022-01-20",
+      "diagnosing_facility": "UCSF Medical Center",
+      "status": "active (low-grade)",
+      "notes": "Presented with bloody nasal discharge, pulmonary infiltrates, and mild renal involvement. Biopsy confirmed granulomatous inflammation. PR3-ANCA strongly positive. Treated with rituximab induction, then transitioned to azathioprine maintenance."
+    },
+    {
+      "condition": "Mild Hearing Loss (left ear)",
+      "diagnosed": "2023-05-10",
+      "status": "stable",
+      "notes": "Sensorineural, likely vasculitis-related. Audiometry stable over past year."
+    }
+  ],
+  "surgeries": [
+    {
+      "procedure": "Nasal septum biopsy",
+      "date": "2022-01-15",
+      "facility": "UCSF Medical Center"
+    }
+  ],
+  "allergies": ["Codeine (nausea)"],
+  "family_history": [
+    "Father: Type 2 Diabetes, age 72",
+    "Mother: Deceased, lung cancer age 64",
+    "No family history of autoimmune disease"
+  ],
+  "social_history": {
+    "smoking": "Never smoker",
+    "alcohol": "Rare, 1-2 drinks per month",
+    "exercise": "Yoga 2x/week, walks daily",
+    "occupation": "Graphic designer, freelance",
+    "compliance_notes": "Patient has missed 3 of last 8 scheduled rheumatology infusion/follow-up appointments. Physician notes from 2025-11 mention 'discussed importance of treatment adherence, patient reports scheduling conflicts with work deadlines.'"
+  }
+}

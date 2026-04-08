@@ -1,0 +1,14 @@
+{
+  "patient_id": "PT-2026-02002",
+  "name": "Lisa Okafor",
+  "age": 45,
+  "gender": "Female",
+  "date_of_birth": "1980-09-14",
+  "address": "2210 Market Street, San Francisco, CA 94114",
+  "phone": "(415) 555-0943",
+  "insurance": "United Healthcare PPO",
+  "primary_physician": "Dr. Michael Brennan",
+  "referral_source": "UCSF Vasculitis Clinic",
+  "referral_date": "2026-03-05",
+  "summary": "45-year-old female with established GPA diagnosis for 4 years. PR3-ANCA confirmed positive. Currently on azathioprine maintenance. Interested in novel therapy trial due to ongoing low-grade disease activity despite standard treatment."
+}

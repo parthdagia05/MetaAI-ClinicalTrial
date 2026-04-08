@@ -1,0 +1,14 @@
+{
+  "patient_id": "PT-2026-02003",
+  "name": "James Whitfield",
+  "age": 28,
+  "gender": "Male",
+  "date_of_birth": "1997-12-03",
+  "address": "88 Oak Valley Road, Berkeley, CA 94704",
+  "phone": "(510) 555-0412",
+  "insurance": "Anthem Blue Cross PPO",
+  "primary_physician": "Dr. Priya Sharma",
+  "referral_source": "UC Berkeley Student Health → UCSF Rheumatology",
+  "referral_date": "2026-03-08",
+  "summary": "28-year-old male with GPA diagnosed 8 months ago. Had allergic reaction to rituximab during induction, qualifying as treatment failure. Currently on low-dose prednisone taper. PR3-ANCA positive with borderline titers. Seeking alternative treatment options."
+}

@@ -1,0 +1,22 @@
+name: clinical-trial-screener
+version: "1.0.0"
+description: >
+  Simulate a clinical trial patient screening workflow.
+  Agent must review patient records, check eligibility criteria,
+  identify drug interactions, and make enrollment decisions.
+author: hackathon-team
+tags:
+  - openenv
+  - clinical-trials
+  - patient-screening
+  - healthcare
+tasks:
+  - id: easy_diabetes_screening
+    description: Screen a patient for a Phase III diabetes drug trial
+    difficulty: easy
+  - id: medium_cardiac_interactions
+    description: Screen a cardiac patient with hidden drug interactions
+    difficulty: medium
+  - id: hard_rare_disease_multi
+    description: Screen three patients for a rare autoimmune disease trial
+    difficulty: hard

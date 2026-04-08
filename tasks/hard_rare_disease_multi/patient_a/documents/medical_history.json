@@ -1,0 +1,55 @@
+{
+  "document_type": "medical_history",
+  "patient_id": "PT-2026-02001",
+  "last_updated": "2026-02-28",
+  "conditions": [
+    {
+      "condition": "ANCA-associated Vasculitis",
+      "diagnosed": "2024-03-15",
+      "diagnosing_facility": "City General Hospital",
+      "diagnosing_physician": "Dr. Anita Reddy",
+      "status": "active",
+      "notes": "Initially presented with sinusitis, pulmonary nodules, and hematuria. Renal biopsy showed pauci-immune crescentic glomerulonephritis. Diagnosed as ANCA-associated vasculitis, PR3-ANCA positive per this facility."
+    },
+    {
+      "condition": "Prior evaluation at Mercy Hospital",
+      "diagnosed": "2023-09-20",
+      "diagnosing_facility": "Mercy Hospital Sacramento",
+      "diagnosing_physician": "Dr. William Torres",
+      "status": "historical",
+      "notes": "Patient initially evaluated at Mercy Hospital 6 months before City General diagnosis. Records indicate: 'Suspected Eosinophilic Granulomatosis with Polyangiitis (EGPA) based on peripheral eosinophilia and asthma history. MPO-ANCA positive. Recommend further workup.' Patient sought second opinion at City General."
+    },
+    {
+      "condition": "Asthma",
+      "diagnosed": "2015-07-10",
+      "status": "active",
+      "notes": "Adult-onset, moderate persistent. Uses inhaled corticosteroids."
+    },
+    {
+      "condition": "Chronic Sinusitis",
+      "diagnosed": "2023-06-01",
+      "status": "active",
+      "notes": "Recurrent episodes, nasal crusting. May be vasculitis-related."
+    }
+  ],
+  "surgeries": [
+    {
+      "procedure": "Renal biopsy",
+      "date": "2024-03-10",
+      "facility": "City General Hospital",
+      "findings": "Pauci-immune crescentic glomerulonephritis"
+    }
+  ],
+  "allergies": ["No known drug allergies"],
+  "family_history": [
+    "Father: Healthy, age 62",
+    "Mother: Rheumatoid arthritis, age 59",
+    "No family history of vasculitis"
+  ],
+  "social_history": {
+    "smoking": "Never smoker",
+    "alcohol": "Social drinker, 1-2 drinks per week",
+    "exercise": "Limited due to fatigue and dyspnea",
+    "occupation": "Software engineer, works remotely"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_type": "medical_history",
+  "patient_id": "PT-2026-01234",
+  "last_updated": "2026-02-25",
+  "conditions": [
+    {
+      "condition": "Non-valvular Atrial Fibrillation",
+      "diagnosed": "2024-01-10",
+      "status": "active",
+      "notes": "Persistent AF, rate-controlled with metoprolol"
+    },
+    {
+      "condition": "Transient Ischemic Attack",
+      "diagnosed": "2025-07-18",
+      "status": "resolved",
+      "notes": "Single episode, left-sided weakness lasting 20 minutes, full recovery. CT angiography showed no significant stenosis."
+    },
+    {
+      "condition": "Hypertension",
+      "diagnosed": "2015-03-22",
+      "status": "controlled",
+      "notes": "Well managed on lisinopril"
+    },
+    {
+      "condition": "Type 2 Diabetes Mellitus",
+      "diagnosed": "2020-09-05",
+      "status": "mild",
+      "notes": "Managed with metformin alone, good control"
+    },
+    {
+      "condition": "Osteoarthritis",
+      "diagnosed": "2022-06-14",
+      "status": "chronic",
+      "notes": "Bilateral knee involvement, uses ibuprofen as needed"
+    },
+    {
+      "condition": "Mild Depression",
+      "diagnosed": "2025-04-01",
+      "status": "managed",
+      "notes": "Patient declined SSRI medication, manages with herbal supplements and counseling"
+    }
+  ],
+  "surgeries": [
+    {
+      "procedure": "Cholecystectomy (laparoscopic)",
+      "date": "2018-04-20",
+      "facility": "Boston Medical Center"
+    }
+  ],
+  "allergies": ["Penicillin (rash)"],
+  "family_history": [
+    "Father: Ischemic stroke (fatal, age 70)",
+    "Mother: Hypertension, alive age 88",
+    "Sister: No significant medical history"
+  ],
+  "social_history": {
+    "smoking": "Former smoker, quit 2010 (15 pack-year history)",
+    "alcohol": "Occasional glass of wine, 1-2 per week",
+    "exercise": "Walks 20 minutes 3x/week, limited by knee pain",
+    "occupation": "Retired schoolteacher",
+    "supplements": "Takes St. John's Wort 300mg three times daily for mood, Vitamin D 2000 IU daily, Fish oil 1200mg daily"
+  },
+  "cha2ds2_vasc_score": {
+    "total": 5,
+    "components": {
+      "congestive_heart_failure": 0,
+      "hypertension": 1,
+      "age_65_74": 1,
+      "diabetes": 1,
+      "stroke_tia": 2,
+      "vascular_disease": 0,
+      "female_sex": 1
+    },
+    "note": "Score corrected: age component should be 0 (age 62, not yet 65). Actual score is 4."
+  }
+}

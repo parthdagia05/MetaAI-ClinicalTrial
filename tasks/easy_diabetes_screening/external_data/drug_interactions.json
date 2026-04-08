@@ -1,0 +1,31 @@
+{
+  "source": "DrugBank Clinical Interaction Database",
+  "query_drug": "Semaflozin (SGLT2 Inhibitor)",
+  "interactions": [
+    {
+      "drug": "Metformin",
+      "severity": "none",
+      "notes": "No clinically significant interaction. Combination is commonly used."
+    },
+    {
+      "drug": "Lisinopril",
+      "severity": "mild",
+      "notes": "Both may affect renal function. Monitor eGFR closely."
+    },
+    {
+      "drug": "Atorvastatin",
+      "severity": "none",
+      "notes": "No known interaction."
+    },
+    {
+      "drug": "Aspirin",
+      "severity": "none",
+      "notes": "No known interaction."
+    }
+  ],
+  "warnings": [
+    "SGLT2 inhibitors may cause further decline in eGFR in patients with pre-existing renal impairment",
+    "Risk of diabetic ketoacidosis is elevated in patients with eGFR < 60",
+    "Monitor renal function at baseline, 3 months, and every 6 months thereafter"
+  ]
+}

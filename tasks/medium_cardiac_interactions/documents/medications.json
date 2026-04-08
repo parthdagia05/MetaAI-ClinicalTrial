@@ -1,0 +1,61 @@
+{
+  "document_type": "current_medications",
+  "patient_id": "PT-2026-01234",
+  "last_verified": "2026-02-25",
+  "medications": [
+    {
+      "name": "Warfarin",
+      "dose": "5 mg",
+      "frequency": "Once daily",
+      "route": "Oral",
+      "prescriber": "Dr. James Park",
+      "start_date": "2024-02-01",
+      "notes": "INR monitored biweekly, has been difficult to maintain stable levels"
+    },
+    {
+      "name": "Metoprolol Succinate",
+      "dose": "50 mg",
+      "frequency": "Twice daily",
+      "route": "Oral",
+      "prescriber": "Dr. James Park",
+      "start_date": "2024-01-15"
+    },
+    {
+      "name": "Lisinopril",
+      "dose": "10 mg",
+      "frequency": "Once daily",
+      "route": "Oral",
+      "prescriber": "Dr. James Park",
+      "start_date": "2015-04-01"
+    },
+    {
+      "name": "Metformin",
+      "dose": "500 mg",
+      "frequency": "Twice daily",
+      "route": "Oral",
+      "prescriber": "Dr. James Park",
+      "start_date": "2020-10-01"
+    },
+    {
+      "name": "Ibuprofen",
+      "dose": "400 mg",
+      "frequency": "As needed for knee pain",
+      "route": "Oral",
+      "prescriber": "Self-directed (OTC)",
+      "notes": "Takes 3-4 times per week on average"
+    }
+  ],
+  "supplements": [
+    {
+      "name": "Vitamin D3",
+      "dose": "2000 IU",
+      "frequency": "Once daily"
+    },
+    {
+      "name": "Fish Oil",
+      "dose": "1200 mg",
+      "frequency": "Once daily"
+    }
+  ],
+  "note": "Supplement list may be incomplete. Patient reports taking additional OTC supplements not verified by pharmacy records."
+}

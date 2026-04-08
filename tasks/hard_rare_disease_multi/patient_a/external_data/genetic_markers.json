@@ -1,0 +1,23 @@
+{
+  "source": "Clinical Immunogenetics Lab",
+  "patient_id": "PT-2026-02001",
+  "test_date": "2026-02-20",
+  "results": [
+    {
+      "marker": "HLA-DPB1*04:01",
+      "result": "Negative",
+      "relevance": "This allele is strongly associated with GPA/PR3-ANCA vasculitis. Absence is atypical for PR3-ANCA disease."
+    },
+    {
+      "marker": "HLA-DQ",
+      "result": "HLA-DQ*06:02 positive",
+      "relevance": "This allele has been associated with MPO-ANCA vasculitis in some studies."
+    },
+    {
+      "marker": "SERPINA1 (Alpha-1 antitrypsin genotype)",
+      "result": "Normal (MM genotype)",
+      "relevance": "Deficiency variants (ZZ) are associated with increased PR3-ANCA risk. Normal result is non-contributory."
+    }
+  ],
+  "interpretation": "Genetic profile is more consistent with MPO-ANCA associated vasculitis than PR3-ANCA/GPA."
+}

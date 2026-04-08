@@ -1,0 +1,21 @@
+{
+  "source": "DrugBank Clinical Interaction Database",
+  "query_drug": "Ritugenib (JAK1/JAK3 Inhibitor)",
+  "interactions": [
+    {
+      "drug": "Azathioprine",
+      "severity": "high",
+      "notes": "Combined immunosuppression significantly increases infection risk. Must not be co-administered. Requires 4-week washout."
+    },
+    {
+      "drug": "Prednisone",
+      "severity": "mild",
+      "notes": "Low-dose (≤10mg/day) permitted per protocol."
+    },
+    {
+      "drug": "Trimethoprim-Sulfamethoxazole",
+      "severity": "moderate",
+      "notes": "Both may suppress bone marrow. Regular CBC monitoring required."
+    }
+  ]
+}

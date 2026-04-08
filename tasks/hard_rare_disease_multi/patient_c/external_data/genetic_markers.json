@@ -1,0 +1,23 @@
+{
+  "source": "Clinical Immunogenetics Lab",
+  "patient_id": "PT-2026-02003",
+  "test_date": "2026-02-15",
+  "results": [
+    {
+      "marker": "HLA-DPB1*04:01",
+      "result": "Positive (homozygous)",
+      "relevance": "Strongly associated with GPA/PR3-ANCA vasculitis. Homozygous carriage confers highest risk. Confirms disease subtype."
+    },
+    {
+      "marker": "SERPINA1 (Alpha-1 antitrypsin genotype)",
+      "result": "MZ heterozygote (intermediate deficiency)",
+      "relevance": "Alpha-1 antitrypsin deficiency variants are associated with PR3-ANCA vasculitis. MZ genotype is a known risk factor for GPA."
+    },
+    {
+      "marker": "HLA-B*50:01",
+      "result": "Positive",
+      "relevance": "Associated with GPA susceptibility in European populations."
+    }
+  ],
+  "interpretation": "Strong genetic profile for PR3-ANCA GPA. Multiple risk alleles present. Supports clinical diagnosis despite lower-range PR3-ANCA titers."
+}
