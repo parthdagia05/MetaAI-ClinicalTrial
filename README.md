@@ -132,6 +132,19 @@ python inference.py
 | GET | `/state` | Get current environment state |
 | GET | `/grade` | Get final grading for completed episode |
 
+## Baseline Scores
+
+Baseline agent using `llama-3.3-70b-versatile` via Groq:
+
+| Task | Score | Decision | Notes |
+|------|-------|----------|-------|
+| `easy_diabetes_screening` | **0.80** | Reject (correct) | Found 1/2 concerns, correct reasoning |
+| `medium_cardiac_interactions` | **0.43** | Reject (should be waitlist) | Identified CYP3A4 issue but was too aggressive |
+| `hard_rare_disease_multi` | **0.13** | Incomplete | Multi-patient task challenges frontier models |
+| **Average** | **0.45** | | |
+
+The difficulty progression is clear: easy tasks are solvable, medium requires nuance, and hard genuinely challenges AI agents.
+
 ## Example Usage
 
 ```python
